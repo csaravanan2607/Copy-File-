@@ -1,27 +1,44 @@
+# Ex - 11
 # Copy-File
-## AIM:
+## AIM :
 To write a python program for copying the contents from one file to another file.
-## EQUIPEMENT'S REQUIRED: 
+## EQUIPEMENT'S REQUIRED : 
 PC
 Anaconda - Python 3.7
-## ALGORITHM: 
+## ALGORITHM : 
 ### Step 1:
+Get the file name and location from the user.
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+Give a new file name to create a copy of a file content.
 
-### Step 4:  
+### Step 3:
+Read the file and close the file.
 
-### Step 5: 
+### Step 4:
+Now write the content in the new file.
 
-### Step 6: 
+### Step 5:
+When done print"File copied successfully".
 
-## PROGRAM:
+### Step 6:
+End of the program
 
-### OUTPUT:
+## PROGRAM :
+```
+#Developed by: Saravanan C
+#Register Number: 212222110041
+
+with open("text1.txt", 'r') as fp:
+    msg=fp.read()
+with open("copy.txt", 'w') as fp1:
+    fp1.write(msg)
+```
+
+### OUTPUT :
+
+![Screenshot 2024-05-11 173641](https://github.com/Aravindan2006/Copy-File/assets/151760062/8949552f-4ae6-4105-8e01-4a95d3ae5f4a)
 
 
-
-## RESULT:
+## RESULT :
 Thus the program is written to copy the contents from one file to another file.
